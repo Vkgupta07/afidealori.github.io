@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+     <meta charset="utf-8">
+     <meta http-equiv="X-UA-compatible" Content="IE-edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>Afideal</title>
+     <link rel="stylesheet" href="bootstrap.css"/>
+     <link rel="stylesheet" href="mystyle.css"/>
+     <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+<style type="text/css">
+  .jumbotron {
+background: #f5f5f5;
+color: #f26522;
+border-radius: 0px;
+}
+.jumbotron-sm { padding-top: 24px;
+padding-bottom: 24px; }
+.jumbotron small {
+color: #f2ae8e;
+}
+.h1 small {
+font-size: 24px;
+}
+#btnContactUs{background-color: #f26522; border-color: #f26522;}
+
+</style>
+
+</head><!--end of head-->
+<body>
+<!--header-->
+       <div class="container-fluid top_bar">
+       <div class="container">
+       <div class="row">
+       <div class="col-sm-3">
+       	<a href="#" class="socialicons"><i class="fab fa-facebook-square" style="font-size:16px;color:#fff;"></i></a>
+       	<a href="#" class="socialicons"><i class="fab fa-twitter-square" style="font-size:16px;color:#fff;"></i></a>
+        <a href="#" class="socialicons"><i class="fas fa-envelope" style="font-size:16px;color:#fff;"></i></a>
+        <a href="#" class="socialicons"><i class="fab fa-youtube" style="font-size:16px;color:#fff;"></i></a>
+        <a href="#" class="socialicons"><i class="fab fa-google-plus-g" style="font-size:16px;color:#fff;"></i></a>
+       </div>
+       
+       <div class="col-sm-9 text-right contact_info">
+       	<span class="fas fa-envelope"><b>vk_gupta07@yahoo.com,</b></span>
+        <span class="fas fa-phone blink"><b>+918882220001</b></span>
+       </div>
+       </div><!--end of row-->
+       </div><!--end of cantainer--> 
+       </div><!--end of container fluid-->
+
+
+       <!--logo and -->
+	
+<!--end of header-->
+
+<!--logo and navigation-->
+         <div class="container">
+         <div class="row">
+         <div class="col-lg-5">
+         <img src="logo.jpg" alt="padhosto" class="img-responsive logo">
+         </div><!--end of col-5-->
+         
+
+         <div class="col-lg-7 my_menu">
+         
+         <nav class="navbar navbar-default">
+
+
+         <div class="navbar-header">
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+         	<span class="icon-bar"></span>
+         	<span class="icon-bar"></span>
+         	<span class="icon-bar"></span>
+         </button>
+         </div><!--end of navbar-header-->
+         
+
+         <div class="collapse navbar-collapse" id="mynavbar">
+         
+         <ul class="nav navbar-nav pull-right">
+         <li><a href="index.html">HOME</a></li>
+         <li><a href="about_us.html">ABOUT US</a></li>
+         <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">SERVICES<span class="caret"></span></a>
+        
+            <ul class="dropdown-menu">
+             <li><a href="#">Website</a></li>
+             <li><a href="#">Webserver</a></li>
+             <li><a href="#">Career</a></li>
+            </ul>
+         </li>
+         <li><a href="registration.html">SIGNUP</a></li>
+         <li class="active"><a href="contact_us.html">CONTACT US</a></li>
+         </ul>
+         
+         </div><!--end of collapse-->
+         
+         </nav><!-- end of navbar -->
+
+         </div><!--end of col-7-->
+         
+ 
+         </div><!--end of row-->
+         </div><!--end of container-->
+
+
+<!-- contact us start here -->
+        <div class="jumbotron jumbotron-sm">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-lg-12">
+                <h1 class="h1">
+                    Contact us <small>Feel free to contact us</small></h1>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="well well-sm">
+                <form>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name">
+                                Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">
+                                Email Address</label>
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="fas fa-envelope"></span>
+                                </span>
+                                <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">
+                                Subject</label>
+                            <select id="subject" name="subject" class="form-control" required="required">
+                                <option value="na" selected="">Choose One:</option>
+                                <option value="service">General Customer Service</option>
+                                <option value="suggestions">Suggestions</option>
+                                <option value="product">Product Support</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name">
+                                Message</label>
+                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                            Send Message</button>
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <form>
+            <legend><span class="glyphicon glyphicon-globe"></span> Our office</legend>
+            <address>
+                <strong>Twitter, Inc.</strong><br>
+                Sector 56, New Ashok Nagar<br>
+                New Delhi
+                <abbr title="Phone">
+                P:</abbr>
+                +918882220001
+            </address>
+            <address>
+                <strong>Full Name</strong><br>
+                <a href="mailto:#">first.last@example.com</a>
+            </address>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- contactus page end -->
+
+<!-- footer -->
+       <div class="container-fluid footer">
+        <div class="container">
+        <div class="col-sm-3 history">
+         <img src="logo.jpg" alt="" class="img-responsive">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quod molestias, in reiciendis repellendus ipsam ea sit omnis, earum ad fugit? Facilis consectetur aperiam fuga, quasi earum laboriosam nemo possimus 2017.</p>
+          <div class="btn btn-warning">Read More</div>
+        </div><!--end of col1-->
+         <div class="col-sm-3">
+         <h3>Quick Links</h3>
+          <ul>
+           
+              <li><a href="index.html">&raquo; Home</a></li>
+              <li><a href="about_us.html">&raquo; About Us</a></li>
+              <li><a href="#">&raquo; Services</a></li>
+              <li><a href="registration.html">&raquo; SignUp</a></li>
+              <li><a href="contact_us.html">&raquo; Contact us</a></li>
+          </ul>
+
+          
+        </div><!--end of col2-->
+         <div class="col-sm-3">
+         <h3>Contact Details</h3>
+         <address>
+            <a href="mailto:webmaster@example.com">Vivek Kumar Gupta</a><br> 
+  
+            www.Afideal.com<br>
+            Sector 56, New Ashok Nagar<br>
+            New Delhi
+         </address>
+          
+        </div><!--end of col3-->
+        <div class="col-sm-3 foo">
+        <h3>Social links</h3>
+        <a href="#" class="socialicon"><i class="fab fa-facebook-square" style="font-size:20px;color:warning;"></i></a>
+        <a href="#" class="socialicon"><i class="fab fa-twitter-square" style="font-size:20px;color:warning;"></i></a>
+        <a href="#" class="socialicon"><i class="fas fa-envelope" style="color:warning;font-size:20px;"></i></a>
+        <a href="#" class="socialicon"><i class="fab fa-youtube" style="font-size:20px;color:warning;"></i></a>
+        <a href="#" class="socialicon"><i class="fab fa-google-plus-g" style="font-size:20px;color:warning;"></i></a>
+        
+        </div><!--end of col3-->
+          
+        </div><!--end of container-->
+         
+       </div><!--end of container-fluid-->
+
+<!-- end of footer -->
+
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="bootstrap.js"></script>
+</body>
+</html>
+

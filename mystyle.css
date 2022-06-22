@@ -1,0 +1,189 @@
+@charset "utf-8";
+
+.top_bar
+{
+	background-color: #F26522;
+	padding: 5px 0;
+}
+
+.logo{margin-left: -29%}
+
+.socialicons
+{
+	margin-right: 2px;
+	
+}
+
+.contact_info
+{
+    color: #fff;
+    font-size:15px ;
+    word-spacing:  3px;   
+}
+
+.my_menu
+{
+	margin-top: 23px;
+}
+
+.navbar-default
+{
+	background:none;
+	border: none;
+}
+
+.my_menu .navbar-nav .active a, .my_menu .navbar-nav .active a:hover
+{
+	background: #f26522;
+	color: #fff;
+ }
+
+.my_menu .navbar-nav li a:hover
+{
+     background: #f26522;
+	   color: #fff;
+}
+
+/* .blink 
+{
+
+  animation-duration: 1000ms;    blinking speed decreases and increase 
+  animation-name: tgle;
+  animation-iteration-count: infinite;
+} */
+
+/* @keyframes tgle {
+  0% {
+    opacity: 0;
+  }
+
+  49.99% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+
+  99.99% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+} */
+
+.blink
+{
+  animation: blink 1.5s linear infinite
+}
+
+
+@keyframes blink{
+  0%{opacity: 1;}
+  50%{opacity:0;}
+  100%{opacity:1;}
+}
+
+.courses
+{
+	background: radial-gradient(circle, grey, #F26522);
+	padding: 25px 0;
+}
+.courses h1
+{
+	font-family: verdana;
+	font-weight: bold;
+}
+
+
+.courses .language
+{
+	margin-top: 5%;
+}
+.courses .language2
+{
+	margin: 3% 0% 0% -2%;
+}
+
+
+.imgzoom:hover
+{
+  transform: translateZ(0px) rotate(15deg);
+  box-shadow: 0px 0px 0px rgba(0,0,0,0.8);
+}
+
+p{
+  font-family: 'Playfair Display', serif;
+  color: #000;
+}
+
+.footer p
+{
+  margin-top:10px; 
+  margin-bottom: 5px
+
+}
+
+.footer
+{
+  background-color: #F26522;
+  padding: 20px 0;
+  margin-top:35px;
+}
+.footer ul{list-style-type: none; margin:0; padding: 0;}
+.socialicon{margin-right: 8px}
+
+.tab{
+  border: 1px solid #e3e3e3;
+  background-color: #f5f5f5;
+  padding: 35px 35px 35px 35px;}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus
+{
+  color: #e5e5e5;
+  background-color: #f5f5f5;
+}
+
+/* aboutUs css */
+
+.overview{}
+
+
+@media(max-width: 360px)
+{
+    .courses .language .java
+    {
+    	margin-top: -125%;
+    }
+    .courses [class*="col-"]
+    {
+    	margin-bottom: 5%;
+    }
+    .courses .language2
+    {
+    	margin: 0% -4% 0% -6%;
+    }
+    .para
+    {
+      text-align: justify
+    }
+}
+
+
+
+@media(max-width: 1200px)
+{
+	.my_menu .pull-right
+	{
+        float: none !important;
+	}
+	
+	.top_bar
+	{
+		text-align: center;
+	}
+}
+
+
+
+
